@@ -2,17 +2,19 @@
 
 header{
 
-    background-color: yellow;
+    background-image: url("./images/portaogar.jpeg");
     background-size: auto;
-    margin-top: 30px;
-    padding-top: auto;
+   
+    padding-top: 50px;
+    padding-bottom: 170px;
     border-radius: 10px;
-    sha
+    
 }
 h1#text1{
 
-   font-size: 50px;
-    text-align: center;
-    color: blue;
+   
+    
+    
+    
     
 }
