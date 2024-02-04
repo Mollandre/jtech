@@ -2,11 +2,17 @@
 
 header{
 
-    background-image: url("./images/portaogar.jpeg");
     
-   
-    padding-top: 50px;
-    padding-bottom: 170px;
-    border-radius: 10px;
-    
+
+
+}
+h1#text{
+    background-image: url("./images/Port.jpeg");
+    padding-top: 3%;
+    padding-bottom: 30%;
+    color: white;
+  background-size: cover;
+}
+p{
+    font-size: 15px;
 }
