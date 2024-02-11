@@ -1,11 +1,22 @@
 
+.servicos{
+  font-weight: normal;
+  font-size: 15px;
+  padding-left: 150px;
+  margin-top: -5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
 
+.logoimg{
 
-
+  width: 100%;
+  margin-left: 5%;
+}
 .slider{
 
 margin: 0 auto;
-width: 800px;
+width: 400px;
 height: 400px;
 overflow: hidden;
 
@@ -23,6 +34,7 @@ overflow: hidden;
 .slide{
   width: 25%;
   position: relative;
+  
  
   
 }
