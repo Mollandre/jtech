@@ -109,14 +109,7 @@ overflow: hidden;
 #radios4:checked ~ .navegation-auto .auto-btn4{
   background-color: yellow;
 }
-.cftv{
-  border-bottom: 2px solid #6DDCF8;
-  border-top: 2px solid #6DDCF8 ;
-  border-right: 2px solid #6DDCF8;
-  display: flex;
-  box-shadow: 1px 2px black;
-  border-radius: 10px;
-}
+
 .titulocam{
   font-size: 28px;
   margin-left: 60px;
@@ -134,8 +127,16 @@ overflow: hidden;
   
 }
 .tituloport{
-  font-size: 21px;
+  font-size: 19px;
   margin-left: 20px;
+  color: #6DDCF8;
+  text-shadow: 1px 1px black;
+  
+  
+}
+.tituloint{
+  font-size: 21px;
+  margin-left: 50px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
   
@@ -162,9 +163,33 @@ overflow: hidden;
 
   width: 130px;
   height: 120px;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 100px;
   margin-bottom: 20px;
+}
+.imgport{
+
+  width: 130px;
+  height: 120px;
+  margin-top: 15px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+.imgint{
+
+  width: 130px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+.cftv{
+  border-bottom: 2px solid #6DDCF8;
+  border-top: 2px solid #6DDCF8 ;
+  border-right: 2px solid #6DDCF8;
+  display: flex;
+  box-shadow: 1px 2px black;
+  border-radius: 10px;
 }
 .casa{
   border-bottom: 2px solid #6DDCF8;
@@ -184,13 +209,15 @@ overflow: hidden;
   border-radius: 10px;
   margin-top: 20px;
 }
-.imgport{
 
-  width: 130px;
-  height: 120px;
-  margin-top: 10px;
-  border-radius: 100px;
-  margin-bottom: 20px;
+.interfone{
+  border-bottom: 2px solid #6DDCF8;
+  border-top: 2px solid #6DDCF8;
+  border-right: 2px solid #6DDCF8;
+  display: flex;
+  box-shadow: 1px 2px black;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 
