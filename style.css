@@ -9,7 +9,7 @@
 }
 
 .logoimg{
-
+justify-content: center;
 width: 75%;
   margin-left: 5%;
 }
@@ -110,33 +110,60 @@ overflow: hidden;
   background-color: yellow;
 }
 .cftv{
-  border-bottom: 2px solid orange;
-  border-top: 2px solid orange;
-  border-right: 2px solid orange;
+  border-bottom: 2px solid #6DDCF8;
+  border-top: 2px solid #6DDCF8 ;
+  border-right: 2px solid #6DDCF8;
   display: flex;
-  box-shadow: 2px 3px black;
+  box-shadow: 1px 2px black;
   border-radius: 10px;
+}
+.titulocam{
+  font-size: 28px;
+  margin-left: 60px;
+  color: #6DDCF8;
+  text-shadow: 1px 1px black;
+  
+  
+}
+.titulocas{
+  font-size: 24px;
+  margin-left: 26px;
+  color: #6DDCF8;
+  text-shadow: 1px 1px black;
+  
+  
 }
 .txt{
 
-  margin-top: 60px;
-  font-size: 18px;
+  margin-top: 10px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   margin-right: 10px;
+  margin-left: 5px;
 }
-.img{
+.imgcam{
+  width: 130px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+
+}
+.imgcas{
 
   width: 130px;
-  height: 250px;
-  margin-left: -15px;
+  height: 120px;
+  margin-top: 10px;
+  border-radius: 100px;
+  margin-bottom: 20px;
 }
 .casa{
-  border-bottom: 2px solid orange;
-  border-top: 2px solid orange;
-  border-right: 2px solid orange;
+  border-bottom: 2px solid #6DDCF8;
+  border-top: 2px solid #6DDCF8;
+  border-right: 2px solid #6DDCF8;
   display: flex;
-  box-shadow: 2px 3px black;
+  box-shadow: 1px 2px black;
   border-radius: 10px;
   margin-top: 20px;
 }
