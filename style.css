@@ -9,9 +9,10 @@
 }
 
 .logoimg{
-justify-content: center;
+
 width: 75%;
-  margin-left: 5%;
+height: 200px;
+  margin-left: 15%;
 }
 .slider{
 
@@ -24,8 +25,9 @@ overflow: hidden;
 
 
 }
+
 .slides{
-  width: 400%;
+  width: 500%;
   height: 400px;
   display: flex;
   
@@ -78,6 +80,10 @@ overflow: hidden;
   margin-left: -75%;
 
 }
+#radios5:checked ~ .first{
+  margin-left: -100%;
+
+}
 .navegation-auto div{
 
   border: 2px solid #20a6ff;
@@ -107,6 +113,9 @@ overflow: hidden;
   background-color: yellow;
 }
 #radios4:checked ~ .navegation-auto .auto-btn4{
+  background-color: yellow;
+}
+#radios5:checked ~ .navegation-auto .auto-btn5{
   background-color: yellow;
 }
 
@@ -142,6 +151,12 @@ overflow: hidden;
   
   
 }
+.tituloele{
+  font-size: 21px;
+  margin-left: 50px;
+  color: #6DDCF8;
+  text-shadow: 1px 1px black;
+}
 .txt{
 
   margin-top: 10px;
@@ -176,6 +191,14 @@ overflow: hidden;
   margin-bottom: 20px;
 }
 .imgint{
+
+  width: 130px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+.imgele{
 
   width: 130px;
   height: 120px;
@@ -219,6 +242,32 @@ overflow: hidden;
   border-radius: 10px;
   margin-top: 20px;
 }
+.eletrica{
+  border-bottom: 2px solid #6DDCF8;
+  border-top: 2px solid #6DDCF8;
+  border-right: 2px solid #6DDCF8;
+  display: flex;
+  box-shadow: 1px 2px black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.footer{
+  background-image: linear-gradient(to right ,  #6DDCF8 70%, black);
+  display: flex;
+  margin-top: 30px;
+  margin-left: -10px;
+  margin-right: -10px;
+  
+}
+.email{
 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+
+}
+.telefone{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
 
 
