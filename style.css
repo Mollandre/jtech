@@ -120,7 +120,7 @@ overflow: hidden;
 }
 
 .titulocam{
-  font-size: 28px;
+  font-size: 23px;
   margin-left: 60px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
@@ -128,19 +128,20 @@ overflow: hidden;
   
 }
 .titulocas{
-  font-size: 21px;
-  margin-left: 26px;
+  font-size: 18px;
+  margin-left: 10px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
   
   
 }
 .tituloport{
-  font-size: 19px;
-  margin-left: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
-  
+  margin-left: -20px;
+  font-weight: lighter;
   
 }
 .tituloint{
@@ -166,10 +167,19 @@ overflow: hidden;
   margin-right: 10px;
   margin-left: 5px;
 }
+.txtport{
+  margin-top: 2px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 5px;
+
+}
 .imgcam{
   width: 130px;
   height: 120px;
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 100px;
   margin-bottom: 20px;
 
@@ -177,16 +187,16 @@ overflow: hidden;
 .imgcas{
 
   width: 130px;
-  height: 120px;
-  margin-top: 15px;
+  height: 139px;
+  margin-top: 35px;
   border-radius: 100px;
   margin-bottom: 20px;
 }
 .imgport{
 
   width: 130px;
-  height: 120px;
-  margin-top: 15px;
+  height: 139px;
+  margin-top: 30px;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -252,22 +262,85 @@ overflow: hidden;
   margin-top: 20px;
 }
 .footer{
-  background-image: linear-gradient(to right ,  #6DDCF8 70%, black);
+  background-image: linear-gradient(to right ,  #6DDCF8 90%, black);
   display: flex;
-  margin-top: 30px;
+  
   margin-left: -10px;
   margin-right: -10px;
+  margin-bottom: -10px;
   
 }
 .email{
 
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-left: 10px;
+  padding-left: 20px;
 
 }
 .telefone{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-left: 10px;
+  padding-left: 30px;
 }
+.orca{
 
+  background-image: linear-gradient(to right ,  #6DDCF8 90%, black);
+  margin-top: 30px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -21px;
+  text-align: center;
+}
+.scftv{
+  padding-left: 85px;
+  
+  
 
+  
+}
+.scasa{
+  padding-left: 17px;
+  
+  
+}
+.sport{
+  padding-left: 19px;
+  margin-top: 15px;
+}
+.linkcftv{
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2px black;
+  font-weight: bolder;
+  background-color: #6DDCF8;
+  font-size: 12px;
+  
+}
+.linkcasa{
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2px black;
+  font-weight: bolder;
+  background-color: #6DDCF8;
+  font-size: 12px;
+
+}
+.linkport{
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 2px black;
+  font-weight: bolder;
+  background-color: #6DDCF8;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portm{
+  display: flex;
+}
