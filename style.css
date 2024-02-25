@@ -121,27 +121,30 @@ overflow: hidden;
 
 .titulocam{
   font-size: 23px;
-  margin-left: 60px;
+  margin-left: 30px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
   
   
 }
 .titulocas{
-  font-size: 18px;
-  margin-left: 10px;
+  font-size: 11px;
+  margin-left: 3px;
+  margin-right: 30px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
   
   
 }
 .tituloport{
-  font-size: 18px;
+  font-size: 21px;
   font-family: Arial, Helvetica, sans-serif;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
-  margin-left: -20px;
-  font-weight: lighter;
+  margin-left: 10px;
+
+  
+  
   
 }
 .tituloint{
@@ -196,7 +199,7 @@ overflow: hidden;
 
   width: 130px;
   height: 139px;
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -237,7 +240,7 @@ overflow: hidden;
   border-bottom: 2px solid #6DDCF8;
   border-top: 2px solid #6DDCF8;
   border-right: 2px solid #6DDCF8;
-  display: flex;
+  
   box-shadow: 1px 2px black;
   border-radius: 10px;
   margin-top: 20px;
@@ -290,7 +293,7 @@ overflow: hidden;
   text-align: center;
 }
 .scftv{
-  padding-left: 85px;
+  padding-left: 39px;
   
   
 
@@ -342,5 +345,8 @@ overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
 .portm{
+  display: flex;
+}
+.ft{
   display: flex;
 }
