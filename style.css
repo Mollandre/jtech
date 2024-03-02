@@ -120,19 +120,19 @@ overflow: hidden;
 }
 
 .titulocam{
-  font-size: 23px;
+  font-size: 21px;
   margin-left: 30px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
-  
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 .titulocas{
-  font-size: 11px;
-  margin-left: 3px;
-  margin-right: 30px;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
+  margin-left: 15px;
   
   
 }
@@ -149,17 +149,18 @@ overflow: hidden;
 }
 .tituloint{
   font-size: 21px;
-  margin-left: 50px;
+  margin-left: 15px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
-  
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 .tituloele{
   font-size: 21px;
-  margin-left: 50px;
+  margin-left: 15px;
   color: #6DDCF8;
   text-shadow: 1px 1px black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .txt{
 
@@ -179,10 +180,48 @@ overflow: hidden;
   margin-left: 5px;
 
 }
+.txtcas{
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 5px;
+
+}
+.txtcam{
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 5px;
+
+}
+.txtint{
+  margin-top: 1px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 5px;
+
+}
+.txtele{
+  margin-top: 1px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 5px;
+
+}
+
+
 .imgcam{
   width: 130px;
-  height: 120px;
-  margin-top: 40px;
+  height: 139px;
+  margin-top: 2px;
   border-radius: 100px;
   margin-bottom: 20px;
 
@@ -191,7 +230,7 @@ overflow: hidden;
 
   width: 130px;
   height: 139px;
-  margin-top: 35px;
+  margin-top: 5px;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -206,16 +245,16 @@ overflow: hidden;
 .imgint{
 
   width: 130px;
-  height: 120px;
-  margin-top: 20px;
+  height: 139px;
+  margin-top: 5px;
   border-radius: 100px;
   margin-bottom: 20px;
 }
 .imgele{
 
   width: 130px;
-  height: 120px;
-  margin-top: 20px;
+  height: 139px;
+  margin-top: 5px;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -223,7 +262,7 @@ overflow: hidden;
   border-bottom: 2px solid #6DDCF8;
   border-top: 2px solid #6DDCF8 ;
   border-right: 2px solid #6DDCF8;
-  display: flex;
+  
   box-shadow: 1px 2px black;
   border-radius: 10px;
 }
@@ -231,7 +270,7 @@ overflow: hidden;
   border-bottom: 2px solid #6DDCF8;
   border-top: 2px solid #6DDCF8;
   border-right: 2px solid #6DDCF8;
-  display: flex;
+  
   box-shadow: 1px 2px black;
   border-radius: 10px;
   margin-top: 20px;
@@ -250,7 +289,7 @@ overflow: hidden;
   border-bottom: 2px solid #6DDCF8;
   border-top: 2px solid #6DDCF8;
   border-right: 2px solid #6DDCF8;
-  display: flex;
+  
   box-shadow: 1px 2px black;
   border-radius: 10px;
   margin-top: 20px;
@@ -259,7 +298,7 @@ overflow: hidden;
   border-bottom: 2px solid #6DDCF8;
   border-top: 2px solid #6DDCF8;
   border-right: 2px solid #6DDCF8;
-  display: flex;
+ 
   box-shadow: 1px 2px black;
   border-radius: 10px;
   margin-top: 20px;
@@ -293,46 +332,39 @@ overflow: hidden;
   text-align: center;
 }
 .scftv{
-  padding-left: 39px;
-  
+  padding-left: 175px;
+  margin-top: 15px;
   
 
   
 }
 .scasa{
-  padding-left: 17px;
-  
+  padding-left: 43px;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 .sport{
   padding-left: 9px;
   margin-top: 15px;
 }
-.linkcftv{
-  text-decoration: none;
-  border: 2px solid black;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 1px 2px black;
-  font-weight: bolder;
-  background-color: #6DDCF8;
-  font-size: 12px;
+.sint{
+  padding-left: 124px;
+  margin-top: 15px;
+  
+
   
 }
-.linkcasa{
-  text-decoration: none;
-  border: 2px solid black;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 1px 2px black;
-  font-weight: bolder;
-  background-color: #6DDCF8;
-  font-size: 12px;
+.sele{
+  padding-left: 138px;
+  margin-top: 15px;
+  
 
+  
 }
-.linkport{
+
+
+.link{
   text-decoration: none;
   border: 2px solid black;
   color: black;
@@ -344,9 +376,9 @@ overflow: hidden;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.portm{
-  display: flex;
-}
+
+
+
 .ft{
   display: flex;
 }
